@@ -121,8 +121,9 @@ public class BallManager : MonoBehaviour
 
         else if (other.gameObject.tag == "ResetTrigger")
         {
+            gameManager.shotsRemaining = 0;
             SetBallToStartPosition();
-            
+
         }
         else if (other.gameObject.tag == "ShotRefresher")
         {
@@ -170,9 +171,6 @@ public class BallManager : MonoBehaviour
 
         cameraManager.SetBallCameraOrientation(startPosition.transform.forward);
     }
-
-
-
 
     public void StopBall() //immediately halts the ball movement
     {
