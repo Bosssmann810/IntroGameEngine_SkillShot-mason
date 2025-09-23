@@ -123,7 +123,14 @@ public class BallManager : MonoBehaviour
         {
             SetBallToStartPosition();
         }
+        else if (other.gameObject.tag == "ShotRefresher")
+        {
+            StopBall();
+            ballStopped = true;
+            gameManager.CheckForRemainingShots();
+        }
     }
+
 
     public void HandleAimGuide()
     {
