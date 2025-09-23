@@ -128,6 +128,7 @@ public class BallManager : MonoBehaviour
             StopBall();
             ballStopped = true;
             gameManager.CheckForRemainingShots();
+            other.gameObject.SetActive(false);
         }
     }
 

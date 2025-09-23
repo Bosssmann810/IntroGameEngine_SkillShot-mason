@@ -4966,6 +4966,7 @@ Transform:
   - {fileID: 2040845192}
   - {fileID: 350938001}
   - {fileID: 1606799597}
+  - {fileID: 1501618305}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &604712593
@@ -5632,7 +5633,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -5652,7 +5653,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501618299}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -5939,12 +5940,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501618299}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 22, z: 15}
   m_LocalScale: {x: 3, y: 130, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 505702790}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1606799596
 GameObject:
@@ -5999,7 +6000,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -6019,7 +6020,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606799596}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -7889,11 +7890,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7237207107093312026, guid: 933f9b1474a040343bb0c2585027308e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 23.95
+      value: 31.04
       objectReference: {fileID: 0}
     - target: {fileID: 7237207107093312026, guid: 933f9b1474a040343bb0c2585027308e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.35
+      value: 16.41
       objectReference: {fileID: 0}
     - target: {fileID: 7237207107093312026, guid: 933f9b1474a040343bb0c2585027308e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7943,7 +7944,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1160234427}
   - {fileID: 604712594}
-  - {fileID: 1501618305}
   - {fileID: 505702790}
   - {fileID: 608247359}
   - {fileID: 727824503}
