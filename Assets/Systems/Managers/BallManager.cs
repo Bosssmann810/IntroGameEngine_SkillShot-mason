@@ -121,15 +121,18 @@ public class BallManager : MonoBehaviour
 
         else if (other.gameObject.tag == "ResetTrigger")
         {
+            //instaintly fail the level if you go out of bounds
             gameManager.shotsRemaining = 0;
             SetBallToStartPosition();
 
         }
+        //if you hit the shot refresher halt all momentum and act like the ball stopped on its own.
         else if (other.gameObject.tag == "ShotRefresher")
         {
             StopBall();
             ballStopped = true;
             gameManager.CheckForRemainingShots();
+            //when you hit a shot refresher intanly despawn it to prevent an infanite pergatory.
             other.gameObject.SetActive(false);
         }
     }
